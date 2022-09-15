@@ -14,3 +14,11 @@ chsh -s /bin/zsh
 
 ### install vim
 sudo apt install vim
+
+
+https://qiita.com/kaleidot725/items/1eb4a2a4e47e9db01147
+
+https://noumenon-th.net/programming/2018/11/10/ubuntu-us/
+
+https://hirooka.pro/ubuntu-22-04-lts-japanese-input-ibus-fcitx-mozc/
+
