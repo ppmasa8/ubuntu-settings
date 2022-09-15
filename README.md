@@ -27,5 +27,5 @@ sudo apt install clamav
 
 sudo apt install clamav-daemon
 
-### emacs keybinding
-gsettings set org.gnome.desktop.interface gtk-key-theme Emacs
+### ssh
+https://qiita.com/shizuma/items/2b2f873a0034839e47ce
