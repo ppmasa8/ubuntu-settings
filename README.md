@@ -27,5 +27,9 @@ sudo apt install clamav
 
 sudo apt install clamav-daemon
 
+https://qiita.com/kannkyo/items/1cc32231afad88c11d8e
+
+https://office54.net/iot/linux/ubuntu-cron-crontab#section1-2
+
 ### ssh
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
