@@ -24,6 +24,7 @@ https://hirooka.pro/ubuntu-22-04-lts-japanese-input-ibus-fcitx-mozc/
 
 ### security
 sudo apt install clamav
+
 sudo apt install clamav-daemon
 
 ### emacs keybinding
