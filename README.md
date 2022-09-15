@@ -41,3 +41,21 @@ https://office54.net/iot/linux/ubuntu-cron-crontab#section1-2
 
 ### ssh
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+
+### fix output device
+```bash
+sudo vim /etc/pulse/default.pa
+
+…
+### Should be after module-*-restore but before module-*-detect
+load-module module-switch-on-port-available 
+
+### Use hot-plugged devices like Bluetooth or USB automatically (LP: #1702794)
+#.ifexists module-switch-on-connect.so　HERE comment out
+#load-module module-switch-on-connect HERE
+#.endif HERE
+…
+### Make some devices default
+#set-default-sink output
+#set-default-source input
+```
