@@ -59,3 +59,11 @@ load-module module-switch-on-port-available
 #set-default-sink output
 #set-default-source input
 ```
+
+### When no sound
+```bash
+sudo apt-get remove --purge pulseaudio
+sudo apt-get install pulseaudio
+mv ~/.config/pulse ~/.config/new_pulse_conf
+```
+After restart your PC.
