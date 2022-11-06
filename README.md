@@ -67,3 +67,5 @@ sudo apt-get install pulseaudio
 mv ~/.config/pulse ~/.config/new_pulse_conf
 ```
 After restart your PC.
+
+https://qiita.com/kiyokiyopip56/items/77508e99ce93440f3b27
